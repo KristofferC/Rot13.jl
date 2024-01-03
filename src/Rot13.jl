@@ -7,7 +7,7 @@ end
 
 rot13(str::AbstractString) = map(rot13, str)
 
-function main(ARGS)
+function (@main)(ARGS)
     for arg in ARGS
         println(rot13(arg))
     end
