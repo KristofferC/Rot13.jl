@@ -8,7 +8,7 @@ end
 rot13(str::AbstractString) = map(rot13, str)
 
 function (@main)(ARGS)
-    println("UPDATED!")
+    println("UPDATED2!")
     for arg in ARGS
         println(rot13(arg))
     end
